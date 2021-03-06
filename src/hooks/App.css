@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+vaadin-rich-text-editor {
+  height: 300px;
+}
