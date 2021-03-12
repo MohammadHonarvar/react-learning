@@ -49,6 +49,7 @@ class App extends Component {
         <Person
           name={this.state.personList[0].name}
           age={this.state.personList[0].age}
+          click={this.changePerson}
         />
         <Person
           name={this.state.personList[1].name}
