@@ -1,5 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import react, { PropsWithChildren } from 'react';
+import { PropsWithChildren } from 'react';
 
 export const person = (props: PropsWithChildren<{ name: string; age: number }>) => {
   return (
